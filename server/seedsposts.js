@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const Post = require('./models/Post');
 
-// Load environment variables from server/.env if present
+
 dotenv.config({ path: __dirname + '/.env' });
 
-// Use MONGODB_URI from environment when available so seeding targets same DB as the server
+
 const mongoUri = process.env.MONGODB_URI || 'mongodb+srv://mathiasnzioka0_db_user:12Mathias34@cluster0.jwozzm4.mongodb.net/mern_blog?retryWrites=true&w=majority';
 
 // Connect to MongoDB

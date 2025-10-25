@@ -1,5 +1,3 @@
-// api.js - API service for making requests to the backend
-
 import axios from 'axios';
 
 // Create axios instance with base URL
